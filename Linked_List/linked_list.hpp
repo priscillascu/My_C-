@@ -3,8 +3,6 @@ using namespace std;
 
 #define MAXSIZE 10
 
-
-
 struct Node
 {
 	int data;
