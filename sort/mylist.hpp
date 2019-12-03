@@ -1,3 +1,6 @@
+#ifndef _MYLIST_HPP_
+#define _MYLIST_HPP_
+
 #include <iostream>
 using namespace std;
 
@@ -24,3 +27,4 @@ void ShowList(MyList *L1)   //打印顺序表元素
 	}
 	cout << "总长度为：" << L1->length << endl;
 }
+#endif

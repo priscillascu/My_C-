@@ -1,3 +1,6 @@
+#ifndef _BUBBLE_SORT_HPP_
+#define _BUBBLE_SORT_HPP_
+
 #include <iostream>
 #include "mylist.hpp"
 
@@ -39,3 +42,5 @@ void BubbleSort2(MyList *L1)   //改进后的冒泡排序，当没有交换发�
 		cout << "从头遍历第" << i+1 << "次" << endl;
 	}	
 }
+
+#endif
